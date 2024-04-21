@@ -1,0 +1,62 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - courses
+  - my_name_is
+  - ask_apply_online
+  - ask_placements
+  - ask_clubs
+  - ask_faculty
+  - ask_version
+
+responses:
+  utter_greet:
+    - text: "Hey! How are you?"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+      image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Did that help you?"
+
+  utter_happy:
+    - text: "Great, how may I help you?"
+
+  utter_goodbye:
+    - text: "Bye"
+
+  utter_iamabot:
+    - text: "I am a college enquiry chat bot, made by Nitin and Shivam."
+
+  utter_my_name_is:
+    - text: "Nice to meet you {person}" 
+
+  utter_courses:
+    - text: "GU offers industry-oriented professional programs in Engineering, MBA, MCA, Journalism, Hotel Management, Bio-Technology, Pharmacy, Architecture, and many more with the lowest course fee as compared to other universities in the region. For more information visit our official site 'https://www.shiksha.com/university/galgotias-university-greater-noida-37105/courses'."
+
+  utter_ask_apply_online:
+    - text: "GU provides offline as well as online admission procedure. Online admission procedure focuses on CUCET examination. Apply Now on 'https://admissions.galgotiasuniversity.edu.in'!"
+
+  utter_ask_placements:
+    - text: "Highest Package in 2021-22 Engineering - 1CR, MBA - ₹28LPA, Hotel Management - ₹18LPA. For detailed information visit 'https://www.galgotiasuniversity.edu.in/p/placement-records'."
+
+  utter_ask_clubs:
+    - text: "Galgotias University supports the holistic development of its students through diverse avenues such as CamCircle for photography and cinematography enthusiasts, NoteVeda for literary and debating pursuits, and E-Cell for fostering entrepreneurial spirit, among other vibrant clubs and societies."
+
+  utter_ask_faculty:
+    - text: "Galgotias University boasts a diverse and dynamic faculty comprising a total of 70 highly qualified professionals across various departments, ensuring students receive top-tier education and mentorship in their respective fields of study."
+  
+  utter_ask_version:
+    - text: "The latest version of this chatbot brings significant enhancements, including expanded query handling capabilities and upgraded RASA NLU version, alongside a more efficient text-to-speech engine, ensuring smoother and more effective interactions."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+  </head>
+    <div class="chat-container"></div>
+    <script src="https://cdn.jsdelivr.net/npm/@scalableminds/chatroom@0.12.0/dist/Chatroom.min.js"/></script>
+    <script type="text/javascript">
+      var chatroom = new window.Chatroom({
+        host: "http://localhost:5005",
+        title: "College Enquiry Chat Bot (V.2.0) ",
+        container: document.querySelector(".chat-container"),
+        welcomeMessage: "Hey, how may I help you?",
+        speechRecognition: "en-US",
+        voiceLang: "en-US"
+      });
+      chatroom.openChat();
+    </script>
+  </body>
+</html>
