@@ -27,6 +27,7 @@ Step 10. Don't forget to fork our project.
 
 
 ## Screenshots:
+![image](https://github.com/nkthehustler/College-Enquiry-Chatbot-With-Voice-Assitance-V.2.0-/assets/66864065/8ebc3db7-bdf0-4fcf-b8f8-15cf3cca66cc)
 ![image](https://github.com/nkthehustler/College-Enquiry-Chatbot-With-Voice-Assitance-V.2.0-/assets/66864065/d70ff5c4-abe9-4df1-b9c7-d01f40eb4f92)
 ![image](https://github.com/nkthehustler/College-Enquiry-Chatbot-With-Voice-Assitance-V.2.0-/assets/66864065/645b026a-99ee-4a08-9d4f-345030515032)
 ![image](https://github.com/nkthehustler/College-Enquiry-Chatbot-With-Voice-Assitance-V.2.0-/assets/66864065/dad0ce00-4e59-43a3-8c1b-b06d7497eb26)
